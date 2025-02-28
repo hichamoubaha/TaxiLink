@@ -147,7 +147,7 @@
             /* Hero Section */
             .hero {
                 height: 100vh;
-                background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('storage/taxi-maroc.png') center/cover no-repeat;
+                background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('storage/taxi-maroc.png') center/cover no-repeat;
                 display: flex;
                 align-items: center;
                 color: white;
@@ -602,7 +602,7 @@
                         <h3>Contact</h3>
                         <p><i class="fas fa-map-marker-alt"></i> 123 Avenue Mohammed V, Casablanca</p>
                         <p><i class="fas fa-phone"></i> +212 522 123 456</p>
-                        <p><i class="fas fa-envelope"></i> contact@grandtaxi.ma</p>
+                        <p><i class="fas fa-envelope"></i> contact@taxilink.ma</p>
                     </div>
                 </div>
                 
