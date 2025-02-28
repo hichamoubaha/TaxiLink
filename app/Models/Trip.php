@@ -10,7 +10,7 @@ class Trip extends Model
     use HasFactory;
 
     protected $fillable = [
-        'passenger_id', // Add this line
+        'passenger_id', // Add this linee
         'driver_id',
         'pickup_time',
         'pickup_location',
