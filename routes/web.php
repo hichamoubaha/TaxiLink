@@ -6,6 +6,13 @@ use App\Http\Controllers\DriverAvailabilityController;
 use App\Http\Controllers\ReservationController;
 use Illuminate\Support\Facades\Route;
 
+
+// Trips route
+Route::get('/trips', [TripController::class, 'index'])->name('trips.index');
+
+// Driver availabilities route
+Route::get('/availabilities', [DriverAvailabilityController::class, 'index'])->name('availabilities.index');
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
