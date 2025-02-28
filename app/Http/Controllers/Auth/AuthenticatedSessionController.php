@@ -26,9 +26,16 @@ class AuthenticatedSessionController extends Controller
     public function store(LoginRequest $request): RedirectResponse
     {
         $request->authenticate();
-
         $request->session()->regenerate();
-
+    
+        // Check user role and redirect accordingly
+        if ($request->user()->hasRole('passenger')) {
+            return redirect()->route('trips.index'); // Redirect to trips
+        } elseif ($request->user()->hasRole('driver')) {
+            return redirect()->route('availabilities.index'); // Redirect to availabilities
+        }
+    
+        // Default redirect if no role matches
         return redirect()->intended(RouteServiceProvider::HOME);
     }
 
