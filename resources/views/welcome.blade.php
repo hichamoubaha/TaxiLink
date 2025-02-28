@@ -147,7 +147,7 @@
             /* Hero Section */
             .hero {
                 height: 100vh;
-                background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://cdnjs.cloudflare.com/ajax/libs/browser-logos/69.0.0/archive/taxi-morocco.jpg') center/cover no-repeat;
+                background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('storage/taxi-maroc.png') center/cover no-repeat;
                 display: flex;
                 align-items: center;
                 color: white;
