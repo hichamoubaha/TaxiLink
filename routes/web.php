@@ -22,7 +22,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Auth Routes (Login, Register, etc.)
+// Auth Routes (Login, Register, etc..)
 require __DIR__.'/auth.php';
 
 // Authenticated Routes
