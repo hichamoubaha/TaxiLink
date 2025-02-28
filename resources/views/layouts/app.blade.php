@@ -68,7 +68,7 @@
                             <!-- Dropdown Menu -->
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
     <li>
-        <a class="dropdown-item" href="{{ route('profile.edit') }}">Edit Profile</a>
+        <a class="dropdown-item" href="{{ route('profile.edit') }}">Profile</a>
     </li>
     <li><hr class="dropdown-divider"></li>
     <li>
