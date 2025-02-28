@@ -43,7 +43,7 @@ class DriverAvailabilityController extends Controller
         return view('availabilities.edit', compact('availability'));
     }
 
-    // Update an availability
+    // Update an availabilityy
     public function update(Request $request, DriverAvailability $availability)
     {
         $request->validate([
