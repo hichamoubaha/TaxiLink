@@ -488,7 +488,7 @@
         <section class="features" id="features">
             <div class="container">
                 <div class="section-header">
-                    <h2>Pourquoi choisir GrandTaxi</h2>
+                    <h2>Pourquoi choisir TaxiLink</h2>
                     <p>Notre plateforme facilite le voyage interurbain en grand taxi pour tous les Marocains</p>
                 </div>
                 
