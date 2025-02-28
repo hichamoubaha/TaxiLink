@@ -32,6 +32,6 @@ class User extends Authenticatable
 
     public function availabilities()
     {
-        return $this->hasMany(DriverAvailability::class, 'driver_id'); // Correct relationship
+        return $this->hasMany(DriverAvailability::class, 'driver_id'); // Correct relationshipp
     }
 }
