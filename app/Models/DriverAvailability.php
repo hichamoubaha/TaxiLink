@@ -17,6 +17,6 @@ class DriverAvailability extends Model
 
     public function driver()
     {
-        return $this->belongsTo(User::class, 'driver_id'); // Correct relationship
+        return $this->belongsTo(User::class, 'driver_id'); // Correct relationshipp
     }
 }
