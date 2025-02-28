@@ -9,7 +9,7 @@ class AddProfilePhotoToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('profile_photo')->nullable()->after('password'); // Add the column
+            $table->string('profile_photo')->nullable()->after('password'); // Add the column-
         });
     }
 

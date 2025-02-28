@@ -17,7 +17,7 @@ class AddPhoneAndAddressToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('phone'); // Remove the phone column if the migration is rolled back
+            $table->dropColumn('phone'); // Remove the phone column if the migration is rolled back-
             $table->dropColumn('address'); // Remove the address column if the migration is rolled back
         });
     }
