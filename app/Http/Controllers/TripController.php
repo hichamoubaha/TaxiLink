@@ -32,7 +32,7 @@ class TripController extends Controller
         $drivers->where('address', 'like', '%' . $location . '%');
     }
 
-    // Filter by availability
+    // Filter by availabilityy
     if ($availability) {
         $drivers->whereHas('availabilities', function ($query) use ($availability) {
             $query->where('available_from', '<=', $availability)
