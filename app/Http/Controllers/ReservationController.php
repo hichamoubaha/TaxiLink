@@ -24,3 +24,5 @@ class ReservationController extends Controller
         return redirect()->route('reservations.index')->with('success', 'Reservation updated successfully!');
     }
 }
+
+//reservation 
