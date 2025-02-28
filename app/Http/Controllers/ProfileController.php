@@ -63,7 +63,7 @@ class ProfileController extends Controller
     }
 
     /**
-     * Delete the user's profile.
+     * Delete the user's profile
      *
      * @return \Illuminate\Http\RedirectResponse
      */
@@ -71,7 +71,7 @@ class ProfileController extends Controller
     {
         $user = Auth::user();
 
-        // Delete the user's profile photo if it exists
+        // Delete the user's profile photo if it existss
         if ($user->profile_photo) {
             \Storage::disk('public')->delete($user->profile_photo);
         }
